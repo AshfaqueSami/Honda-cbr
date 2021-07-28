@@ -1,0 +1,15 @@
+/* header section*/
+.row-bg{
+    background-color: #264653;
+}
+.banner-button-color{
+    background-color:  #E76F51;
+
+}
+/* main section  */
+.fetured-bikes-p-color{
+    color:  #E76F51;
+}
+.grayscale{
+    filter: grayscale(100%);
+}
