@@ -2,14 +2,39 @@
 .row-bg{
     background-color: #264653;
 }
-.banner-button-color{
+.banner-button{
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
     background-color:  #E76F51;
 
 }
-/* main section  */
-.fetured-bikes-p-color{
+/* main section/Fetures Bike */
+.fetured-bikes-paragraph-color{
     color:  #E76F51;
 }
-.grayscale{
+.hr-tag-modify{
+    width: 7%;
+    margin: auto;
+    color: #E76F51;
+}
+.fetured-bike-grayscale{
     filter: grayscale(100%);
 }
+/* Happy Client section  */
+.client-section-heading-color{
+    color:  #E76F51;
+}
+.client-section-icon-color{
+    color: #E76F51;
+}
+.client-section-name-color{
+    color: rgba(16, 193, 216, 0.692);
+}
+
+/*  Frequently Asked Questions Section  */
+
+.heading-color{
+    color:  #E76F51;
+}
+ 

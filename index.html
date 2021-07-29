@@ -8,7 +8,7 @@
     <title>Honda Website</title>
     <!-- Fontawesome  -->
     <script src="https://kit.fontawesome.com/7f0ff7af87.js" crossorigin="anonymous"></script>
-    <!-- Bootstrap Css  -->
+    <!-- Bootstrap Css Cdn -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Stylesheet  -->
@@ -17,44 +17,16 @@
 
 <body>
     <!-- Header  -->
-    <!-- navigation -->
+    <!-- Banner  -->
     <header>
-        <section>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Navbar</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Features</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Pricing</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </section>
-        <!-- Banner -->
-        <section class="">
+        <section class=" mb-5">
             <div>
-                <div class="row row-bg align-items-center justify-content-center pb-5 mb-5">
-                    <div class="col">
-                        <div class="ms-4 ps-5">
-                            <p class="text-muted">Computer-controlled digital transistorized with electronic advance</p>
+                <div class="row row-bg align-items-center justify-content-center pt-5 pb-5">
+                    <div class="col-xxl-6 col-12 ">
+                        <div class="ps-5">
+                            <p class="text-white">Computer-controlled digital transistorized with electronic advance</p>
                             <h1 class="text-white">Honda CBR 300R</h1>
-                            <p class="text-muted text-justify">If you’ve got a soft spot for sportbike design and Grand
+                            <p class="text-white text-justify">If you’ve got a soft spot for sportbike design and Grand
                                 Prix
                                 stylings, then the 2021 <br>
                                 Honda
@@ -63,7 +35,7 @@
                                 blast
                                 to ride around town and on twisty back roads.</p>
                             <!-- Button trigger modal -->
-                            <button type="button" class="btn banner-button-color" data-bs-toggle="modal"
+                            <button type="button" class="btn banner-button" data-bs-toggle="modal"
                                 data-bs-target="#exampleModal">
                                 Purchase
                             </button>
@@ -93,7 +65,7 @@
                         </div>
                     </div>
                     <div class="col">
-                        <img src="images/header-bike.png" alt="">
+                        <img src="images/header-bike.png" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>
@@ -102,19 +74,22 @@
     <!-- Main Section  -->
     <!-- Fetured Bikes  -->
     <main>
-        <section class="container">
-            <h1 class="text-center">Fetured Bike 2021</h1>
-            <p class="text-center fw-bold fetured-bikes-p-color">Best Bike Collection</p>
+        <section class="container mb-5">
+            <h1 class="text-center">Fetured Bikes 2021</h1>
+            <p class="text-center fw-bold fetured-bikes-paragraph-color">Best Bike Collection</p>
+            <hr class="hr-tag-modify">
             <div class="container px-5">
                 <div class="row gx-4">
-                    <div class="col">
-                        <div class="p-5 grayscale"><img src="images/feature-bike.jpg" class="img-fluid" alt=""></div>
+                    <div class="col-xxl-4 col-12">
+                        <div class="p-5 fetured-bike-grayscale"><img src="images/feature-bike.jpg" class="img-fluid"
+                                alt=""></div>
                     </div>
-                    <div class="col">
+                    <div class="col-xxl-4 col-12">
                         <div class="p-5"><img src="images/feature-bike.jpg" class="img-fluid" alt=""></div>
                     </div>
-                    <div class="col">
-                        <div class="p-5 grayscale"><img src="images/feature-bike.jpg" class="img-fluid" alt=""></div>
+                    <div class="col-xxl-4 col-12">
+                        <div class="p-5 fetured-bike-grayscale"><img src="images/feature-bike.jpg" class="img-fluid"
+                                alt=""></div>
                     </div>
                 </div>
             </div>
@@ -122,10 +97,10 @@
     </main>
 
     <!-- Happy Client Section  -->
-    <section class="container">
-        <h1 class="text-center">Happy Client Says</h1>
+    <section class="container mb-5">
+        <h1 class="text-center mb-5">Happy <span class="client-section-heading-color">Client Says</span></h1>
         <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col mb-5">
+            <div class="col-12 col-xxl-4 mb-5">
                 <div class="card h-100">
                     <img src="images/user-1.png" class="card-img-top w-50 align-self-center pt-5" alt="...">
                     <div class="card-body">
@@ -136,64 +111,64 @@
                             to work to reach your financial
 
                             goal for the month and year</p>
-                        <div class="text-center mb-3">
+                        <div class="text-center mb-3  client-section-icon-color">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="far fa-star"></i>
                         </div>
-                        <h5 class="text-center mb-3">Devid Luis</h5>
-                        <p class="text-center">Banker</p>
+                        <h5 class="text-center mb-3 fw-bold client-section-name-color">Devid Luis</h5>
+                        <p class="text-center fw-bold">Banker</p>
                     </div>
 
                 </div>
             </div>
-            <div class="col mb-5">
+            <div class="col-12 col-xxl-4 mb-5">
                 <div class="card h-100">
                     <img src="images/user-2.png" class="card-img-top w-50 align-self-center pt-5" alt="...">
                     <div class="card-body">
-                        <p class="card-text">Devid helps you see how
+                        <p class="card-text">Selina helps you see how
 
                             many more days you need
 
-                            to work to reach your financial
+                            to work to reach your Gaming
 
                             goal for the month and year</p>
-                        <div class="text-center mb-3">
+                        <div class="text-center mb-3  client-section-icon-color">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="far fa-star"></i>
                         </div>
-                        <h5 class="text-center mb-3">Devid Luis</h5>
-                        <p class="text-center">Banker</p>
+                        <h5 class="text-center mb-3  client-section-name-color">Selina Gomez</h5>
+                        <p class="text-center fw-bold">Gamer</p>
                     </div>
 
                 </div>
             </div>
-            <div class="col mb-5">
+            <div class="col-12 col-xxl-4 mb-5">
                 <div class="card h-100">
-                    <img src="images/user-3.jpg" class="card-img-top rounded-circle w-50 align-self-center pt-5"
+                    <img src="images/user-3.jpg" class="card-img-top rounded-circle h-75  w-50 align-self-center pt-5"
                         alt="...">
                     <div class="card-body">
-                        <p class="card-text">Devid helps you see how
+                        <p class="card-text">Maria helps you see how
 
                             many more days you need
 
-                            to work to reach your financial
+                            to work to reach your marketing
 
                             goal for the month and year</p>
-                        <div class="text-center mb-3">
+                        <div class="text-center mb-3 client-section-icon-color">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="far fa-star"></i>
                         </div>
-                        <h5 class="text-center mb-3">Devid Luis</h5>
-                        <p class="text-center">Banker</p>
+                        <h5 class="text-center mb-3  client-section-name-color">Mrs Maria</h5>
+                        <p class="text-center fw-bold">Marketer</p>
                     </div>
                 </div>
             </div>
@@ -201,11 +176,11 @@
     </section>
 
     <!-- Frequently Asked Questions Section -->
-    <section class="container">
-        <h1 class="text-center">Frequently Asked Questions</h1>
+    <section class="container mb-5">
+        <h1 class="text-center mb-5">Frequently Asked <span class="heading-color">Questions</span></h1>
         <div class="container px-4 ">
             <div class="row gx-5 align-items-center">
-                <div class="col">
+                <div class="col-xxl-6 col-12">
                     <div class="p-3"><img src="images/faq.png" class="img-fluid" alt=""></div>
                 </div>
                 <div class="col ">
@@ -287,7 +262,112 @@
             </div>
         </div>
     </section>
-    <!-- Bootstrap Js  -->
+
+    <!-- Most Popular Bike -->
+    <section class="container">
+        <h1 class="text-center mb-5">Most Popular Bike</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4  ">
+            <div class="col-12 col-xxl-4 mb-5 ">
+                <div class="card h-100">
+                    <img src="images/hqdefault.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">This is the yamaha mt 15.It is too much populer in Bangladesh.It Looks too
+                            much good</p>
+                        <div class="text-center mb-3">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <h2 class="text-center">$15000</h2>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-12 col-xxl-4 mb-5 ">
+                <div class="card h-100">
+                    <img src="images/p1.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">This is the yamaha fz f1.It is too much populer in Bangladesh.It Looks too
+                            much good</p>
+                        <div class="text-center mb-3">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <h2 class="text-center">$5000</h2>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-12 col-xxl-4 mb-5 ">
+                <div class="card h-100">
+                    <img src="images/Indian-Scout-Bobber.png" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">This is the King bike.It is too much populer in Bangladesh.It Looks too
+                            much good</p>
+                        <div class="text-center mb-3">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <h2 class="text-center">$25000</h2>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Top Bike Riders  -->
+    <section class="container mb-5">
+        <h1 class="text-center mb-5">Top Moto Riders</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4  ">
+            <div class="col-xxl-4 col-12  ">
+                <div class="card h-100">
+                    <img src="images/player1.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <h1>Marc Marquez</h1>
+                        <p class="card-text">There were few chinks in the six-times MotoGP champion’s armour in 2019,
+                            but when revealed they were instantly sealed. Able not only to save situations that would
+                            have others on the ground, when Marc did come down hard, in Thailand and Malaysia, he walked
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-4 ">
+                <div class="card h-100">
+                    <img src="images/player2.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <h1>Maverick Viñales</h1>
+                        <p class="card-text">Not only was his rival’s Honda closer to his Ducati in outright horsepower,
+                            but it was a more rounded machine. The glamorous red Italian bike had reinforced its
+                            strengths – acceleration and top speed, with a back-up of good braking. But the Bologna
+                            factory hadn’t made inroads into shoring up the main weakness, which can be summed up in two
+                            words – corner speed.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xxl-4 ">
+                <div class="card h-100">
+                    <img src="images/player3.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body">
+                        <h1>Marc Marquez</h1>
+                        <p class="card-text">The former Moto3 World Champion was back for a third year with the factory
+                            Yamaha team. The first had started brilliantly and gone off song, the second stayed that
+                            way. The third was mixed, with two wins among seven podium finishes, but several more races
+                            where he didn’t really join the party.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Bootstrap Js Cdn  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
